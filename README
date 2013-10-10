@@ -1,0 +1,19 @@
+NAME
+       XMLRPC::Transport::HTTP::FCGI - A FastCGI implementation of server interface to HTTP transport for XMLRPC::Lite
+
+SYNOPSIS
+         use XMLRPC::Transport::HTTP::FCGI;
+
+         my $server = XMLRPC::Transport::HTTP::FCGI
+             -> dispatch_to('methodName')
+             -> handle
+         ;
+
+DESCRIPTION
+       XMLRPC::Transport::HTTP::FCGI is a FastCGI implementation of server interface to HTTP transport for XMLRPC::Lite.
+
+LICENSE
+       This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+AUTHOR & COPYRIGHT
+       Copyright 2013 Six Apart, Ltd. All rights reserved.
